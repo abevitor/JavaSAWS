@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Executar EstruturaFor",
+      "request": "launch",
+      "mainClass": "EstruturaFor",
+      "projectName": "javaProjects",
+      "args": "banana uva maça pera jaca melão"
+    }
+  ]
+}
+
