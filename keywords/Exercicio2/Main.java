@@ -20,6 +20,8 @@ public class Main {
 
         scanner.nextLine();
 
+        
+
         switch(opcao){
 
             case 1:

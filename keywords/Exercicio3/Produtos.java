@@ -1,66 +1,60 @@
 package keywords.Exercicio3;
 
-abstract class Produtos {
-
+// Classe abstrata base
 abstract class Produto {
+    protected double preco;
 
-        protected double preco;
-
-        public Produto(double preco){
-            this.preco = preco;
-        }
-
-        public abstract double calcularImposto();
-
+    public Produto(double preco) {
+        this.preco = preco;
     }
 
-    class Alimentacao extends Produto{
-        public Alimentacao(double preco){
-            super(preco);
-        }
+    public abstract double calcularImposto();
+}
 
-        @Override
-        public double calcularImposto(){
-            return preco * 0.01;
-        }
-
-    class SaudeBemEstar extends Produto {
-        public SaudeBemEstar(double preco){
-            super(preco);
-        }
-        @Override
-        public double calcularImposto(){
-            return preco * 0.015;
-        }
+// Subclasse Alimentação
+class Alimentacao extends Produto {
+    public Alimentacao(double preco) {
+        super(preco);
     }
 
-    class Vestuario extends Produto {
-        public Vestuario(double preco){
-            super(preco);
+    @Override
+    public double calcularImposto() {
+        return preco * 0.01;
+    }
+}
 
-        }
-
-        @Override
-        public double calcularImposto(){
-            return preco * 0.025;
-        }
-
-        class Cultura extends Produto {
-            public Cultura(double preco){
-                super(preco);
-            }
-
-        @Override
-        public double calcularImposto(){
-            return preco * 0.04;
-            
-
-            }
-        }
-        }
+// Subclasse Saúde e Bem-estar
+class SaudeBemEstar extends Produto {
+    public SaudeBemEstar(double preco) {
+        super(preco);
     }
 
-
+    @Override
+    public double calcularImposto() {
+        return preco * 0.015;
     }
-    
+}
 
+// Subclasse Vestuário
+class Vestuario extends Produto {
+    public Vestuario(double preco) {
+        super(preco);
+    }
+
+    @Override
+    public double calcularImposto() {
+        return preco * 0.025;
+    }
+}
+
+// Subclasse Cultura
+class Cultura extends Produto {
+    public Cultura(double preco) {
+        super(preco);
+    }
+
+    @Override
+    public double calcularImposto() {
+        return preco * 0.04;
+    }
+}
