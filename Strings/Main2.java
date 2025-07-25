@@ -8,10 +8,10 @@ public class Main2 {
 
         // String concatenation with +
         var stringStart = OffsetDateTime.now();
-        String stringConcat = "";
-        for (int i = 0; i < 100_000; i++) {
-            stringConcat += i;
-        }
+        //String stringConcat = "";
+        //for (int i = 0; i < 100_000; i++) {
+          //  stringConcat += i;
+       // }
         var stringEnd = OffsetDateTime.now();
         System.out.printf("String concat: %d miliseconds\n", getInterval(stringStart, stringEnd));
 

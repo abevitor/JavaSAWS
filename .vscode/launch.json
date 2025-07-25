@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Generics.Main",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "apiStreams.Main2",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "apiStreams.Main",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Optional.Main",
             "projectName": "JavaSAWS_bdce7ca8"
         },
