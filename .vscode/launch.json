@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Exceptions.Cadastro.Main",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
             "name": "CarroMonitoramento",
             "request": "launch",
             "mainClass": "Exercicio2.CarroMonitoramento",
