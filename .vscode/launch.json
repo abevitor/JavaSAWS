@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CarroMonitoramento",
+            "request": "launch",
+            "mainClass": "Exercicio2.CarroMonitoramento",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Bicicleta",
+            "request": "launch",
+            "mainClass": "Exercicio1.Bicicleta",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "datas.Main",
