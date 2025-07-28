@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "managerFile.Main2",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "managerFile.Main",
