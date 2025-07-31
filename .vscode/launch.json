@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercicio10",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio10",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio9",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio9",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio8",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio8",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio7",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio7",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio6",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio6",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio5",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio5",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio4",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio3",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio3",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio2",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio2",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio1",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.Exercicios.Exercicio1",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
             "name": "BinaryOperatorExampleT",
             "request": "launch",
             "mainClass": "FunctionalInterface.BinaryOperatorExampleT",
