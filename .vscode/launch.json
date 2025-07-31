@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryOperatorExampleT",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.BinaryOperatorExampleT",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "PredicateIExampleT",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.PredicateIExampleT",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "FunctionExampleTR",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.FunctionExampleTR",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "SupplierExampleT",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.SupplierExampleT",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "ConsumerExampleT",
+            "request": "launch",
+            "mainClass": "FunctionalInterface.ConsumerExampleT",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
             "name": "Main2",
             "request": "launch",
             "mainClass": "managerFile.Main2",
