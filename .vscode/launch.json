@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Singleton.Main",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
             "name": "Exercicio10",
             "request": "launch",
             "mainClass": "FunctionalInterface.Exercicios.Exercicio10",
