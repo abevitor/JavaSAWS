@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Facade.Main",
+            "projectName": "JavaSAWS_bdce7ca8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Strategy.Main",
             "projectName": "JavaSAWS_bdce7ca8"
         },
